@@ -1,0 +1,87 @@
+.container {
+    background-color: rgb(219, 144, 219);
+    height: 500vh;
+    display: flex;
+    font-family: Arial;
+    font-size: 20px;
+    border-color: antiquewhite;
+    border-style: double;
+    border-color: goldenrod;
+
+}
+
+
+.container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #000;
+    background-color: rgb(43, 28, 28);
+    margin-left: 10px;
+}
+
+.login {
+    height: 650px;
+    background: url(https://staticg.sportskeeda.com/editor/2024/01/e0b32-17061405508835-1920.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: Arial;
+    color: white;
+    height: 10vh;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-origin: border-box;
+    border-style: double;
+    border-color: #000;
+    text-decoration: underline;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.chap-intro {
+    font-size: large;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 1000;
+    text-decoration: underline;
+}
+
+.chapter {
+    align-items: center;
+    color: blue;
+    border-style: double;
+    margin-right: 450px;
+    margin-left: 450px;
+    display: flexbox;
+    padding-left: 150px;
+    padding-bottom: 15px;
+    padding-top: 10px
+}
+
+.chapter:hover {
+    text-decoration: underline;
+    color: rgb(4, 4, 190);
+    cursor: pointer;
+}

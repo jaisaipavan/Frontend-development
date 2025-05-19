@@ -1,0 +1,139 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: black;
+    font-family: Arial;
+    font-size: 20px;
+    border-color: antiquewhite;
+    border-style: double;
+    border-color: goldenrod;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa4fIin2SQSasYMWR_denSPgJcEcDmVX_UDw&s);
+    background-size: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 1px solid #000;
+    width: 450px;
+    height: 500px;
+    font-family: Arial;
+    font-size: 20px;
+    border-color: antiquewhite;
+    border-style: double;
+    border-color: goldenrod;
+    font-weight: bold;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrYFf5LLKCRIZG_nGndQWtaUHZCfgNNS_M9A&s);
+    background-size: cover;
+}
+
+
+.user {
+    margin-top: 10px;
+    height: fit-content;
+    color: white;
+
+}
+
+.pwd {
+    margin-top: 10px;
+    height: fit-content;
+    color: white;
+}
+
+.username {
+    margin-top: 3px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.password {
+    margin-top: 3px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+
+}
+
+.login-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(39, 35, 35);
+    color: white;
+    height: 33px;
+    border-radius: 7px;
+    font-family: Arial;
+    font-weight: bold;
+    width: 180px;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(1, 1, 1);
+}
+
+.login-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: Arial;
+    color: white;
+    height: 10vh;
+    border-radius: 10px;
+    background-color: aqua;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-origin: border-box;
+    border-style: double;
+    border-color: #000;
+    background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ8NDQ0NFREWFhURExMYHSggGBolGxUTITEhJjUrLi8uFx8zPTM4NzQtMCsBCgoKDQ0NFQ0PDysZFR8rKystKzErKzcrKy0vKysrLTcrLysrKysrLSsrLS0tKystKzctLSstKysrNysrLTcrK//AABEIAMIBAwMBIgACEQEDEQH/xAAbAAEBAQEBAQEBAAAAAAAAAAAAAQIDBAUHBv/EACwQAQACAQMACAYDAQAAAAAAAAABAgMEESEFBhIxQVFxwRMiMmGBoRSRsQf/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAGxEBAQEBAAMBAAAAAAAAAAAAAAECESExQRL/2gAMAwEAAhEDEQA/APw4BVABAAAAFQkRQBUAAAAAAAAAEUAAAVAAUAAAAAAAEAAAACBYAN0EUAUABAAAAUAQBQEFQQAUAAABQAAAAAQAAAAVFlBABQAABQAQBUAarDMOtY4SjMwjUsgiKigAqAAAAoAAAAAIAAAAQskIiioAAAAKCiwgg749JlvEzTHe0RtvtWZnmN449Gc2nyUiJvjvSJ7pvS1Yn+07Dlc4h2rHDljjl68dN67pqrI80wzLpeGJIMyy1LLSACgAIAAACgAAAgAAAAAigAgAoAIqvd0RgjJnpSa9vffavnP383hfY6p5a06Q0lrfT8aKz6Wia+7OvS59v2TqL1MxW1Wsw6rHW1raTo/WY7XrFp2yfGpMf3iq+X/0LqL/ABujtZlxxv8AAimXnbtViMkRaN/Lad32Y67YtJ0pTJhrn1OL+BfSZq4a0vOPLXLW+Ltza1a7xE5eN947Z1p6501HRmsnJpNZjw6jS6jD8W86KKRe0dmvEZu19W3G2/lDn+J4v11/V5Z8fgOPvfV0WPfFknxif0+VjnmH1NBk+XJXziWtsY9vFeHGXbJ4uKxmszDEulmJaiIAoAKgAAAAAKACAAAAAAAAAAAAqulLTExMTMTE1mJidpifOJcnWvtDNH3NF07q4imOM0RSkVrWsYcERFY8PpZ6yZb3vWJyXtSaxetbWma0tb6uzXuh8zDPMPo54jLmwVnmJiO1zt8u/LlfGuus8548Wk0OTLO1K77czPdWPWTTz2bWi28d8ekv6fLqqUr2MdYrWO6K8Q/mtdze8/eJ/UJnV0uszLhlcpXtMWdY5JZmVSWkQBQAEAAAAABQAQAAAAAAAAAAAAdK+3u5tx4enulV2xy9Wly/NM/baHiiXTFPDFjUvHvvqJ83jyX+afKYiUmzna3P4ZmeLddYv3s7tXc3SMKkgogCoAAAAAAAAAAAAAAAAAAAAAANR4fllqs93rP+Iqx5Ole5xieXSspRvdi0m7MoqyxK7oqIAoAKgAAAAAAAAAAAAAAAAAAAAAA1Huyvh+QRqsstQgpKCKICiAAAKgAAAAAAAAAAAAAAAAAAAAAAAAsIqAAKIAAAACoAAAAAAAAAAAAAAAAAAAAAAAAAIoAAAAAoACAAAAAAAAAAoAIAAAAAAAAAAAAACgAgAAAAAAAAAAAAAKAAACAAAAAAAAAAAAAAAAAAoAgAKAAgAAAKAKP/2Q==);
+    background-size: cover;
+    text-decoration: underline;
+
+
+}
+
+.container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #000;
+    background-color: rgb(43, 28, 28);
+}
+
+.login-button:hover {
+    background-color: rgb(70, 64, 64);
+    text-decoration: underline;
+}
+
+.login-button:active {
+    background-color: rgb(1, 1, 1);
+}
+
+.sign-up {
+    color: lightblue;
+    text-decoration: underline;
+    font-size: medium;
+    margin-left: -10px;
+    margin-bottom: 5px;
+}
+
+.sign-up:hover {
+    color: rgb(86, 128, 177);
+    transition: 0.1s;
+    cursor: pointer;
+}

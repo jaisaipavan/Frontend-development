@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Navigation</title>
+    <link rel="stylesheet" href="community.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <h2>Community</h2>
+        <a href="#information">Information</a>
+        <div class="sub-menu">
+            <a id="a1" href="#welcome">Welcome and Rules</a>
+            <a id="a1" href="#announcements">Announcements</a>
+            <a id="a1" href="#resources">Resources</a>
+            <a id="a1" href="#joining-list">Joining List</a>
+        </div>
+        <a href="#text-channels">Text Channels</a>
+        <div class="sub-menu">
+            <a id="a1" href="#general">General</a>
+            <a id="a1" href="#meeting-plans">Meeting Plans</a>
+        </div>
+        <a href="#voice-channels">Voice Channels</a>
+        <div class="sub-menu">
+            <a id="a1" href="#meeting-room">Meeting Room</a>
+            <a id="a1" href="#hangout-chill">Hangout Chill</a>
+            <a id="a1" href="#life-talk">Life Talk</a>
+        </div>
+        <a href="#doubts">Doubts</a>
+        <div class="sub-menu">
+            <a id="a1" href="#ask-community">Ask the Community</a>
+            <a id="a1" href="#doubts-voice">Doubts in Voice</a>
+        </div>
+    
+        <a href="#courses">Courses</a>
+        <div class="sub-menu">
+            <a id="a1" href="#course-recommendations">Course Recommendations</a>
+            <a id="a1" href="#course-curriculum">Course Curriculum</a>
+        </div>
+        <a href="#interns">Interns</a>
+        <div class="sub-menu">
+            <a id="a1" href="#intern">Intern</a>
+            <a id="a1" href="#technical-intern">Technical Intern</a>
+            <a id="a1" href="#graphics-designers">Graphics Designers</a>
+            <a id="a1" href="#marketing-pr">Marketing PR</a>
+            <a id="a1" href="#content-creators">Content Creators</a>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Welcome to the Community   <button id="mode">reading mode</button></h1>
+        <p>Please sign in or sign up to access the channels.</p>
+        <button onclick="showSignIn()">Sign In</button>
+        <button onclick="showSignUp()">Sign Up</button>
+    </div>
+    <div id="auth-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="sign-in-form">
+                <h2>Sign In</h2>
+                <form action="/signin" method="POST">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Sign In</button>
+                </form>
+            </div>
+            <div id="sign-up-form" style="display: none;">
+                <h2>Sign Up</h2>
+                <form action="/signup" method="POST">
+                    <label for="new-username">E-mail:</label>
+                    <input type="text" id="new-username" name="username" required>
+                    <label for="new-password">Password:</label>
+                    <input type="password" id="new-password" name="password" required>
+                    <button type="submit">Sign Up</button>
+            
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="community.js"></script>
+</body>
+
+</html>
