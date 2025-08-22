@@ -1,3 +1,3 @@
 # Web development
- just some stuffs
+ just some random stuffs
  
